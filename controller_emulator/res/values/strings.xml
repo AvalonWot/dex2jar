@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_browser_text">No browser to open website</string>
+    <string name="dialog_title">Configure</string>
+    <string name="dialog_message_no_cardboard">Get the Cardboard app in order to configure your viewer.</string>
+    <string name="go_to_playstore_button">Go to the Play Store</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="dialog_message_setup">Set up your viewer for the best experience.</string>
+    <string name="setup_button">Setup</string>
+    <string name="switch_viewer_prompt">Using a different viewer?</string>
+    <string name="switch_viewer_action">Switch</string>
+    <string name="place_your_phone_into_cardboard">Place your phone into your Cardboard viewer</string>
+    <string name="place_your_viewer_into_viewer_format">Place your phone into your %s viewer</string>
+    <string name="back_button_content_description">back</string>
+    <string name="settings_button_content_description">settings</string>
+    <string name="dialog_title_incompatible_phone">Incompatible phone</string>
+    <string name="dialog_message_incompatible_phone">A Daydream-ready phone is required. Visit the Daydream Help Center for more information.</string>
+    <string name="dialog_title_vr_core_not_installed">Install required</string>
+    <string name="dialog_vr_core_not_installed">This application may not work properly without Google VR Services. Please install Google VR Services from the Play Store before continuing.</string>
+    <string name="dialog_title_vr_core_not_enabled">Setup required</string>
+    <string name="dialog_vr_core_not_enabled">This application may not work properly without enabling Google VR Services, please enable this in phone Settings before continuing.</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="go_to_vr_listeners_settings_button">Go to Settings</string>
+    <string name="dialog_button_got_it">GOT IT</string>
+    <string name="dialog_button_open_help_center">OPEN HELP CENTER</string>
+    <string name="gvr_vr_mode_component">com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="search_menu_title">Search</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="app_name">Controller Emulator</string>
+    <string name="button_text_before_capturing">Start capturing touch and sensor events</string>
+    <string name="button_text_while_capturing">Started capturing sensor and touch events</string>
+    <string name="hover_visualizer">Visualize hover</string>
+    <string name="onboarding_page_1_title">Welcome to the Controller Emulator</string>
+    <string name="onboarding_next">Next ></string>
+    <string name="onboarding_finish">Finish</string>
+    <string name="onboarding_page_1_text">"This app simulates a Daydream controller.
+
+During development, connect this phone (controller phone) to your computer using a USB cable. Alternatively, refer to Android's Debug Bridge documentation to configre `adb` over Wi-Fi.
+
+Also, make sure “Developer options” and “USB debugging” are enabled on this phone (Settings > Developer Options > USB debugging).
+
+See https://developers.google.com/vr/daydream/dev-kit-setup for detailed setup instructions."</string>
+    <string name="onboarding_page_2_text">"To test your app, enable bluetooth on this phone (controller phone) and the headset phone. Make sure the two phones are paired and connected to each other (Settings > Bluetooth > Paired devices).
+
+Also, make sure the \"Enable Controller Emulator\" option is selected in the headset phone's “Google VR Services” settings screen.
+
+See https://developers.google.com/vr/daydream/dev-kit-setup for detailed setup instructions."</string>
+    <string name="touchpad_area_text">(Touchpad area)</string>
+    <string name="app_button_text">APP</string>
+    <string name="status_label">Status</string>
+    <string name="instructions_button">Instructions</string>
+    <string name="status_waiting_for_connection">Waiting for connection</string>
+    <string name="status_connected_network">Connected (TCP/IP)</string>
+    <string name="status_connected_bluetooth">Connected (Bluetooth)</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="home_button_text">HOME</string>
+    <string name="click_button_hint">Double tap on touchpad to simulate touchpad CLICK.</string>
+    <string name="menu_item_adjust_title">Adjust size</string>
+    <string name="menu_item_instructions_title">Instructions</string>
+    <string name="adjust_size_instruction">Drag up/down to adjust</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="minus_sign">-</string>
+    <string name="plus_sign">+</string>
+    <string name="current_scale_fmt">Scale: %1$5.2f</string>
+    <string name="local_ip_address">IP: %1$s, port: %2$d</string>
+    <string name="ic_version_fmt">Version: %1$s</string>
+    <string name="bluetooth_off_message">In order to accept Bluetooth connections from your headset phone, the Controller Emulator needs to enable Bluetooth on your device.</string>
+    <string name="menu_item_switch_to_real_controller">Switch to Real Controller</string>
+    <string name="menu_item_switch_to_emulated_controller">Switch to Emulated Controller</string>
+    <string name="daydream_phone_required">To use the real controller feature, you need a phone that is compatible with Daydream.</string>
+    <string name="real_controller_mode_title">Real Controller Mode</string>
+    <string name="real_controller_mode_confirmation">"Events from your real Daydream controller will now be forwarded to your desktop computer through this app.
+
+When you are asked to insert your phone in your headset, you can instead just hold it in landscape orientation for a few seconds to get past that screen.
+
+The screen may appear to flicker. That is normal behavior (VR mode).
+
+Have your Daydream controller ready and press OK to continue."</string>
+    <string name="ready_to_use_real_controller">"Ready!
+
+Make sure the USB cable is connected and start your app on your desktop computer now. DO NOT TURN OFF the phone's screen while using the controller."</string>
+    <string name="end_real_controller_mode">Exit</string>
+    <string name="gvr_controller_initializing">Initializing controller.</string>
+    <string name="gvr_controller_shutdown">Disconnected from desktop computer. Run your app on your desktop again to reconnect.</string>
+    <string name="gvr_controller_api_unsupported">Error: Controller not supported on this phone. Make sure your phone is compatible with Daydream.</string>
+    <string name="gvr_controller_api_not_authorized">Authorization failed. Make sure Google VR Services has all the necessary permissions.</string>
+    <string name="gvr_controller_api_unavailable">Google VR Services is not available.</string>
+    <string name="gvr_controller_api_service_obsolete">Error: Google VR Services is out of date. Please update and try again.</string>
+    <string name="gvr_controller_api_client_obsolete">Error: this version of the application is obsolete. Please update.</string>
+    <string name="gvr_controller_api_malfunction">Error: failed to connect to Google VR Services. Please restart the app and try again.</string>
+    <string name="gvr_controller_disconnected">"Controller disconnected.
+
+ Hold the HOME button (circle) on your controller."</string>
+    <string name="gvr_controller_scanning">"Controller scanning...
+
+ Hold the HOME button (circle) on your controller."</string>
+    <string name="gvr_controller_connecting">"Controller connecting...
+
+ Hold the HOME button (circle) on your controller."</string>
+    <string name="gvr_controller_connected">Controller connected!</string>
+</resources>
