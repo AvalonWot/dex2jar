@@ -12,8 +12,7 @@ decompile_jar(){
 	echo classes.jar
 	apktool d ./jar_src/classes.jar -o $CLASS_SRC
 	fi
-	
-	echo "end"
+	return $? 
 }
 extract_class_file(){
 	if [ -d $1 ];then
@@ -50,7 +49,19 @@ help(){
 	echo ----------------------------------------------------------------------------------------------------------------
 }	
 
-case $1 in  
+case $1 in
+  "a"   ) echo "automatic build"
+	  decompile_jar $2
+	  ret_code=$?
+	  echo $ret_code
+	  if [ $ret_code -eq 1 ];then
+		echo failed
+	  else
+		echo continue
+		rm -rf $JAVA_SRC
+	        decompile_java
+	  fi
+	  ;;
   "d"   ) echo "decompile jar ....."
 	  decompile_jar $2
 	  ;;  
