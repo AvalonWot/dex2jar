@@ -62,6 +62,11 @@ case $1 in
 	        decompile_java
 	  fi
 	  ;;
+  "c"   ) echo "decompile classes.jar ....."
+	  ./dd/d2j-dex2jar.sh ./classes.dex  -o ./jar_src/classes.jar
+    decompile_jar
+    decompile_java
+    ;;
   "d"   ) echo "decompile jar ....."
 	  decompile_jar $2
 	  ;;  
